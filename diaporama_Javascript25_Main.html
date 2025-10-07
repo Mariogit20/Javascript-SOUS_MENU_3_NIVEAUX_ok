@@ -464,7 +464,31 @@ FIN   ====================================> ""AFFICHER"" la ""POPUP"" en ""press
 <!--     <div class="row" style="margin-right:0; " > -->
 	<div class="row" style="margin-right:0; margin-left:0; " >
 		<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" style="margin-bottom:14.95px; " >        
-		
+		<!--
+Les Largeurs en Pixels (Breakpoints)
+
+Les largeurs minimales d'écran associées à chaque classe, basées sur la spécification Bootstrap 5 (la version la plus récente et qui inclut le xxl), sont les suivantes :
+Classe	Nom du Point d'arrêt (Breakpoint)	Largeur d'écran (ViewPort)	Appareils typiques
+col-12	Extra Small (XS)	< 576px	Petits téléphones (par défaut)
+col-sm-12	Small (SM)	≥ 576px	Téléphones, grands smartphones
+col-md-12	Medium (MD)	≥ 768px	Tablettes
+col-lg-12	Large (LG)	≥ 992px	Petits ordinateurs portables, bureaux
+col-xl-12	Extra Large (XL)	≥ 1200px	Grands écrans de bureau
+col-xxl-12	Extra Extra Large (XXL)	≥ 1400px	Écrans très larges
+      
+    -->
+
+    <!--
+Ce que Signifie la Ligne de Code Complète
+
+Rappelons votre code : <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12"
+
+    Le chiffre 12 signifie que l'élément doit prendre 12 colonnes sur les 12 disponibles dans la grille, soit 100 % de la largeur disponible de son conteneur.
+
+    L'application à tous les breakpoints signifie que cette règle de 100 % de largeur est appliquée à TOUTES les tailles d'écran, du plus petit téléphone au plus grand moniteur de bureau.
+
+En résumé : Cet élément div occupera toujours 100 % de la largeur de l'écran (ou de son conteneur), quel que soit l'appareil utilisé pour consulter la page.    
+    -->
 			<div class="heading">
         <h1>Css Responsive Flexbox Cards</h1>
       </div>
